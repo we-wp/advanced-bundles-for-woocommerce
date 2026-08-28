@@ -1,0 +1,154 @@
+/**
+ * Storefront product table for fixed bundles.
+ *
+ * @package AIMPlugins\AdvancedBundles
+ * @license GPL-2.0-or-later
+ */
+
+.aim-bundle-contents {
+	margin-block: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.aim-bundle-contents > h2 {
+	margin: 0 0 1rem;
+	font-size: clamp(1.15rem, 2vw, 1.35rem);
+	line-height: 1.25;
+}
+
+.aim-bundle-components-table {
+	width: 100%;
+	margin: 0;
+	border: 1px solid #dcdcde;
+	border-color: color-mix(in srgb, currentColor 16%, transparent);
+	border-radius: 12px;
+	border-spacing: 0;
+	border-collapse: separate;
+	table-layout: fixed;
+	overflow: hidden;
+}
+
+.aim-bundle-components-table th,
+.aim-bundle-components-table td {
+	padding: 0.8rem 1rem;
+	border: 0;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.aim-bundle-components-table thead th {
+	background: #f6f7f7;
+	background: color-mix(in srgb, currentColor 4%, transparent);
+	font-size: 0.75rem;
+	font-weight: 650;
+	line-height: 1.25;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.aim-bundle-components-table th:last-child,
+.aim-bundle-components-table td:last-child {
+	width: 6.5rem;
+	text-align: right;
+}
+
+.aim-bundle-components-table tbody th {
+	font-weight: inherit;
+}
+
+.aim-bundle-components-table tbody tr:not(:last-child) th,
+.aim-bundle-components-table tbody tr:not(:last-child) td {
+	border-bottom: 1px solid #dcdcde;
+	border-color: color-mix(in srgb, currentColor 12%, transparent);
+}
+
+.aim-bundle-component-link {
+	display: grid;
+	grid-template-columns: 4.5rem minmax(0, 1fr);
+	gap: 0.875rem;
+	align-items: center;
+	min-width: 0;
+	min-height: 4.5rem;
+	color: inherit;
+	text-decoration: none;
+}
+
+.aim-bundle-component-thumbnail {
+	display: block;
+	width: 4.5rem;
+	height: 4.5rem;
+	margin: 0;
+	border: 1px solid #dcdcde;
+	border-color: color-mix(in srgb, currentColor 12%, transparent);
+	border-radius: 8px;
+	object-fit: cover;
+}
+
+.aim-bundle-component-details {
+	display: grid;
+	gap: 0.25rem;
+	min-width: 0;
+}
+
+.aim-bundle-component-name {
+	font-weight: 650;
+	line-height: 1.35;
+	overflow-wrap: anywhere;
+}
+
+.aim-bundle-component-price {
+	font-size: 0.875rem;
+	line-height: 1.4;
+	opacity: 0.72;
+	font-variant-numeric: tabular-nums;
+}
+
+.aim-bundle-component-link:hover .aim-bundle-component-name {
+	text-decoration: underline;
+	text-decoration-thickness: 0.08em;
+	text-underline-offset: 0.18em;
+}
+
+.aim-bundle-component-link:focus-visible {
+	border-radius: 6px;
+	outline: 2px solid currentColor;
+	outline-offset: 4px;
+}
+
+.aim-bundle-component-quantity {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 2.75rem;
+	min-height: 2.25rem;
+	padding-inline: 0.625rem;
+	border-radius: 8px;
+	background: #f0f0f1;
+	background: color-mix(in srgb, currentColor 7%, transparent);
+	font-weight: 650;
+	font-variant-numeric: tabular-nums;
+	line-height: 1;
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+	.aim-bundle-components-table th,
+	.aim-bundle-components-table td {
+		padding: 0.7rem 0.75rem;
+	}
+
+	.aim-bundle-components-table th:last-child,
+	.aim-bundle-components-table td:last-child {
+		width: 4.75rem;
+	}
+
+	.aim-bundle-component-link {
+		grid-template-columns: 3.5rem minmax(0, 1fr);
+		gap: 0.7rem;
+		min-height: 3.5rem;
+	}
+
+	.aim-bundle-component-thumbnail {
+		width: 3.5rem;
+		height: 3.5rem;
+	}
+}

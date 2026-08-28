@@ -1,0 +1,131 @@
+/**
+ * Fixed component editor layout.
+ *
+ * @package AIMPlugins\AdvancedBundles
+ * @license GPL-2.0-or-later
+ */
+
+.aim-bundle-components-editor {
+	box-sizing: border-box;
+	max-width: 100%;
+	min-width: 0;
+	padding: 12px;
+}
+
+.aim-bundle-components-intro {
+	padding: 0 !important;
+}
+
+.aim-bundle-components-table th:nth-child(2),
+.aim-bundle-components-table td:nth-child(2) {
+	width: 120px;
+}
+
+.aim-bundle-components-table th:last-child,
+.aim-bundle-components-table td:last-child {
+	width: 80px;
+	text-align: right;
+}
+
+.aim-bundle-components-table td {
+	vertical-align: middle;
+}
+
+.aim-bundle-components-table,
+.aim-bundle-components-table tbody,
+.aim-bundle-components-table tr,
+.aim-bundle-components-table td {
+	box-sizing: border-box;
+	max-width: 100%;
+	min-width: 0;
+}
+
+.aim-bundle-components-table input[type="number"] {
+	width: 100%;
+}
+
+.aim-bundle-component-label {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+@media screen and (max-width: 782px) {
+	#aim_bundle_components_product_data {
+		overflow: visible;
+	}
+
+	.aim-bundle-components-table {
+		background: transparent;
+		border: 0;
+		display: block;
+		width: 100%;
+	}
+
+	.aim-bundle-components-table thead {
+		display: none;
+	}
+
+	.aim-bundle-components-table tbody {
+		display: grid;
+		gap: 12px;
+		width: 100%;
+	}
+
+	.aim-bundle-components-table tr {
+		background: #fff;
+		border: 1px solid #c3c4c7;
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		padding: 12px;
+		width: 100%;
+	}
+
+	.aim-bundle-components-table td,
+	.aim-bundle-components-table td:nth-child(2),
+	.aim-bundle-components-table td:last-child {
+		display: block;
+		padding: 6px 0;
+		text-align: left;
+		width: 100%;
+	}
+
+	.aim-bundle-component-label {
+		clip: auto;
+		clip-path: none;
+		display: block;
+		font-weight: 600;
+		height: auto;
+		margin: 0 0 6px;
+		overflow: visible;
+		position: static;
+		width: auto;
+	}
+
+	.aim-bundle-components-table .select2-container,
+	.aim-bundle-components-table select,
+	.aim-bundle-components-table input[type="number"] {
+		box-sizing: border-box;
+		max-width: 100%;
+		min-height: 44px;
+		min-width: 0 !important;
+		width: 100% !important;
+	}
+
+	.aim-bundle-components-table .select2-selection {
+		min-height: 44px;
+	}
+
+	.aim-bundle-components-table [data-aim-bundle-remove-component] {
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+		padding: 10px 0;
+	}
+}
