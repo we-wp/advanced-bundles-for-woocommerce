@@ -50,6 +50,8 @@ This public repository contains the Free plugin source only. Advanced Bundles Pr
 
 Every version is tagged. Each GitHub release includes the installable plugin ZIP and checksum. GitHub Releases is the primary public installer source; the website provides a verified mirror.
 
+If Advanced Bundles solves a real store need, star this repository to follow updates and help other WooCommerce users find it.
+
 ## Development
 
 Validate the package metadata and PHP syntax:
