@@ -22,6 +22,17 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: order_storage
+    attributes:
+      label: Order storage
+      options:
+        - HPOS enabled
+        - HPOS disabled
+        - Not sure
+        - Not related
+    validations:
+      required: true
+  - type: dropdown
     id: checkout
     attributes:
       label: Cart and checkout type
@@ -51,6 +62,20 @@ body:
       label: Actual behavior
     validations:
       required: true
+  - type: textarea
+    id: conflict_test
+    attributes:
+      label: Conflict test
+      description: If safe in a staging store, say whether the problem remains with a default theme and only WooCommerce plus Advanced Bundles active.
+    validations:
+      required: false
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add redacted logs or screenshots only when they contain no private or production data.
+    validations:
+      required: false
   - type: checkboxes
     id: checks
     attributes:

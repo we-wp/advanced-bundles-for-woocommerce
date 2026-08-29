@@ -1,0 +1,57 @@
+name: Feature request
+description: Suggest an improvement for the Free plugin based on a real store workflow.
+title: "Feature: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Explain the store workflow and customer outcome. Do not include customer, order, credential, payment, or other private data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Store workflow or problem
+      description: What are you trying to sell or manage, and what blocks you today?
+      placeholder: We sell fixed workshop kits and need...
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the result you need, not only a proposed interface.
+    validations:
+      required: true
+  - type: textarea
+    id: current_workaround
+    attributes:
+      label: Current workaround
+      description: How do you handle this workflow now?
+    validations:
+      required: false
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Closest area
+      options:
+        - Bundle setup
+        - Product page
+        - Cart or checkout
+        - Stock
+        - Orders or refunds
+        - Compatibility
+        - Developer API
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues for this request.
+          required: true
+        - label: I removed private and production data.
+          required: true
+        - label: I understand that submitting a request does not promise inclusion or a release date.
+          required: true

@@ -3,6 +3,12 @@ contact_links:
   - name: Documentation
     url: https://we-wp.com/docs
     about: Read setup, compatibility, and known-limit documentation.
+  - name: Interactive demo
+    url: https://demo.we-wp.com/plugins/advanced-bundles/
+    about: Test Advanced Bundles in an isolated synthetic WooCommerce store.
+  - name: Support scope and diagnostics
+    url: https://we-wp.com/support
+    about: Review support scope and diagnostic guidance before opening a bug report.
   - name: Security report
     url: https://github.com/we-wp/advanced-bundles-for-woocommerce/security/advisories/new
     about: Report a vulnerability privately. Do not use a public issue.
