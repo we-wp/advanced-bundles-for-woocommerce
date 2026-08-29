@@ -6,7 +6,7 @@
 
 Advanced Bundles is a free, open-source WooCommerce plugin for fixed product bundles. Choose simple products or exact variations, set quantities, and sell them as one bundle while WooCommerce keeps control of pricing, stock, tax, shipping, orders, and refunds.
 
-[**Download Free 0.1.0 ZIP**](https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/download/v0.1.0/aim-advanced-bundles-0.1.0.zip) · [Try the live demo](https://demo.we-wp.com/plugins/advanced-bundles/) · [View the product page](https://we-wp.com/plugins/aim-advanced-bundles)
+[**Download Free 0.1.0 ZIP**](https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/download/v0.1.0/aim-advanced-bundles-0.1.0.zip) · [Try the live demo](https://demo.we-wp.com/plugins/advanced-bundles/) · [View the product page](https://we-wp.com/plugins/advanced-bundles-for-woocommerce)
 
 **Free download. No account, email address, license key, or telemetry.**
 
