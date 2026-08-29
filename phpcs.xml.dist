@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ruleset name="Advanced Bundles Free">
+    <description>WordPress and PHP compatibility checks for the distributed Free plugin.</description>
+    <config name="installed_paths" value="vendor/wp-coding-standards/wpcs,vendor/phpcsstandards/phpcsextra,vendor/phpcsstandards/phpcsutils,vendor/phpcompatibility/php-compatibility,vendor/phpcompatibility/phpcompatibility-paragonie,vendor/phpcompatibility/phpcompatibility-wp"/>
+    <arg name="basepath" value="."/>
+    <arg name="colors"/>
+    <arg value="ps"/>
+    <config name="testVersion" value="8.2-"/>
+    <file>aim-advanced-bundles.php</file>
+    <file>autoload.php</file>
+    <file>uninstall.php</file>
+    <file>src</file>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/build/*</exclude-pattern>
+    <rule ref="WordPress-Extra">
+        <exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
+        <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
+        <exclude name="WordPress.NamingConventions.ValidFunctionName"/>
+        <exclude name="WordPress.NamingConventions.ValidVariableName"/>
+    </rule>
+    <rule ref="WordPress.WP.I18n">
+        <properties>
+            <property name="text_domain" type="array">
+                <element value="aim-advanced-bundles"/>
+            </property>
+        </properties>
+    </rule>
+    <rule ref="PHPCompatibilityWP"/>
+</ruleset>

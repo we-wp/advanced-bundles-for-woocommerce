@@ -10,8 +10,7 @@ List the commands and manual checks you ran. Include relevant WordPress, WooComm
 
 - [ ] This pull request contains one focused change.
 - [ ] I added or updated tests when behavior changed.
-- [ ] `composer validate --strict --no-check-publish` passes.
-- [ ] Every changed PHP file passes `php -l`.
+- [ ] `composer check` passes.
 - [ ] I preserved public contracts, metadata, stock checks, order snapshots, and the Free/Pro boundary.
 - [ ] I added no telemetry, remote executable code, premium installer, private data, credentials, or proprietary source.
 - [ ] I tested relevant classic or block cart and checkout behavior when applicable.

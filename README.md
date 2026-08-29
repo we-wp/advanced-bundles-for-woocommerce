@@ -110,12 +110,14 @@ Review the [0.1.0 release notes](https://github.com/we-wp/advanced-bundles-for-w
 
 ## Development
 
-Validate the package metadata and PHP syntax:
+Install the locked development dependencies and run every public check:
 
 ```sh
-composer validate --strict --no-check-publish
-find . -type f -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l
+composer install
+composer check
 ```
+
+Public CI runs the same Free-only checks on PHP 8.2, 8.3, and 8.4: locked dependency audit, owned PHP parsing, WordPress coding standards with PHP compatibility rules, PHPStan at maximum level with WordPress and WooCommerce stubs, synthetic PHPUnit tests, and explicit installable-ZIP inventory, repeatability, `unzip -t`, and SHA-256 verification.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 

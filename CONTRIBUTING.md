@@ -18,13 +18,13 @@ Use the bug report template and include clear reproduction steps, expected behav
 - Preserve the public contracts, product type, metadata keys, stock checks, order snapshots, and Free/Pro boundary.
 - Add or update tests when behavior changes.
 - Do not add telemetry, remote executable code, premium installers, customer data, or proprietary source.
-- Confirm that every PHP file passes `php -l` and that `composer validate --strict --no-check-publish` succeeds.
+- Confirm that `composer check` passes.
 
-Run the public checks from the repository root:
+Run the complete public checks from the repository root:
 
 ```sh
-composer validate --strict --no-check-publish
-find . -type f -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l
+composer install
+composer check
 ```
 
 For visible changes, include screenshots made with synthetic products. For cart, checkout, stock, or order changes, list the classic or block flow, HPOS state, and WooCommerce version you tested.
