@@ -117,7 +117,7 @@ composer install
 composer check
 ```
 
-Public CI runs the same Free-only checks on PHP 8.2, 8.3, and 8.4: locked dependency audit, owned PHP parsing, WordPress coding standards with PHP compatibility rules, PHPStan at maximum level with WordPress and WooCommerce stubs, synthetic PHPUnit tests, and explicit installable-ZIP inventory, repeatability, `unzip -t`, and SHA-256 verification.
+The full Free-only suite is available locally: locked dependency audit, owned PHP parsing, WordPress coding standards with PHP compatibility rules, PHPStan at maximum level with WordPress and WooCommerce stubs, synthetic PHPUnit tests, and explicit installable-ZIP inventory, repeatability, `unzip -t`, and SHA-256 verification. Public CI currently validates Composer metadata and PHP syntax on PHP 8.2, 8.3, and 8.4; expanding it to the complete suite is still pending.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
