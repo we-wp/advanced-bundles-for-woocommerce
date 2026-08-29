@@ -1,8 +1,22 @@
 {
     "name": "aimplugins/aim-advanced-bundles",
     "description": "Free fixed bundles for WooCommerce.",
+    "keywords": [
+        "ecommerce",
+        "fixed bundles",
+        "product bundles",
+        "product kits",
+        "woocommerce",
+        "wordpress"
+    ],
+    "homepage": "https://we-wp.com/plugins/advanced-bundles-for-woocommerce",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
+    "support": {
+        "docs": "https://we-wp.com/docs",
+        "issues": "https://github.com/we-wp/advanced-bundles-for-woocommerce/issues",
+        "source": "https://github.com/we-wp/advanced-bundles-for-woocommerce"
+    },
     "require": {
         "php": ">=8.2"
     },

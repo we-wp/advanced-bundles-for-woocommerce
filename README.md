@@ -6,33 +6,27 @@
 
 Advanced Bundles is a free, open-source WooCommerce plugin for fixed product bundles. Choose simple products or exact variations, set quantities, and sell them as one bundle while WooCommerce keeps control of pricing, stock, tax, shipping, orders, and refunds.
 
-[**Download Free 0.1.0 ZIP**](https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/download/v0.1.0/aim-advanced-bundles-0.1.0.zip) · [Try the live demo](https://demo.we-wp.com/plugins/advanced-bundles/) · [View the product page](https://we-wp.com/plugins/advanced-bundles-for-woocommerce)
+[**Download WordPress installer — v0.1.0**](https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/download/v0.1.0/aim-advanced-bundles-0.1.0.zip) · [Try the live demo](https://demo.we-wp.com/plugins/advanced-bundles/) · [View the product page](https://we-wp.com/plugins/advanced-bundles-for-woocommerce)
 
 **Free download. No account, email address, license key, or telemetry.**
 
 > Upload the named release ZIP to WordPress. GitHub's automatic **Source code** archives are not installable plugin packages.
 
-### Install with WP-CLI
+[![Advanced Bundles storefront product table with product thumbnails, prices, and fixed quantities](docs/screenshots/bundle-product.png)](https://demo.we-wp.com/plugins/advanced-bundles/)
 
-Requires WordPress 6.8+, WooCommerce 9.9+, and PHP 8.2+.
-
-```sh
-wp plugin install https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/download/v0.1.0/aim-advanced-bundles-0.1.0.zip --activate
-```
+**What customers see:** one bundle product with a clear table of included items. In the cart and order, the zero-value bundle container groups native component lines; components keep their own price, tax, shipping, stock, and refund behavior.
 
 ## See the full WooCommerce bundle flow
 
 Create the bundle in WooCommerce, show every included product clearly, then keep component lines through cart and checkout.
 
-| Bundle editor | Product page |
-| --- | --- |
-| [![WooCommerce Bundle product editor with fixed products and quantities](docs/screenshots/bundle-editor.png)](https://demo.we-wp.com/plugins/advanced-bundles/) | [![Advanced Bundles storefront product table with thumbnails, prices, and quantities](docs/screenshots/bundle-product.png)](https://demo.we-wp.com/plugins/advanced-bundles/) |
-| **Cart** | **Checkout** |
-| [![WooCommerce cart showing a bundle container and component product lines](docs/screenshots/bundle-cart.png)](https://demo.we-wp.com/plugins/advanced-bundles/) | [![WooCommerce checkout showing the fixed bundle and component summary](docs/screenshots/bundle-checkout.png)](https://demo.we-wp.com/plugins/advanced-bundles/) |
+| Bundle editor | Cart | Checkout |
+| --- | --- | --- |
+| [![WooCommerce Bundle product editor with fixed products and quantities](docs/screenshots/bundle-editor.png)](https://demo.we-wp.com/plugins/advanced-bundles/) | [![WooCommerce cart showing a bundle container and component product lines](docs/screenshots/bundle-cart.png)](https://demo.we-wp.com/plugins/advanced-bundles/) | [![WooCommerce checkout showing the fixed bundle and component summary](docs/screenshots/bundle-checkout.png)](https://demo.we-wp.com/plugins/advanced-bundles/) |
 
 Try the [interactive demo](https://demo.we-wp.com/plugins/advanced-bundles/) in a temporary browser store. No account or shared data. Test the product page, bundle editor, cart, and checkout, then reset the store from the demo toolbar.
 
-If Advanced Bundles solves a real store need, [star this repository](https://github.com/we-wp/advanced-bundles-for-woocommerce) to save the project and help other WooCommerce users find it. Use GitHub's **Watch** menu for repository notifications.
+Used it successfully? Click **Star** at the top of this page to save the project and help other WooCommerce users find it. Use GitHub's **Watch** menu for repository notifications.
 
 ## What it does
 
@@ -85,6 +79,14 @@ The Free plugin has no account requirement, email gate, telemetry, or external r
 3. Upload `aim-advanced-bundles-0.1.0.zip`, select **Install Now**, then activate the plugin.
 4. Create or edit a product and choose **Bundle** as the product type.
 5. Add products or exact variations under **Bundle components**, set quantities, and publish.
+
+### Install with WP-CLI
+
+Requires WordPress 6.8+, WooCommerce 9.9+, and PHP 8.2+.
+
+```sh
+wp plugin install https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/download/v0.1.0/aim-advanced-bundles-0.1.0.zip --activate
+```
 
 The same installable ZIP is available from the [we-wp download mirror](https://we-wp.com/downloads/aim-advanced-bundles/latest). Verify either download with the SHA-256 checksum published in the [v0.1.0 release](https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/tag/v0.1.0).
 
