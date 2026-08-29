@@ -24,6 +24,8 @@ Create the bundle in WooCommerce, show every included product clearly, then keep
 
 Try the [interactive demo](https://demo.we-wp.com/plugins/advanced-bundles/) in a temporary browser store. No account or shared data. Test the product page, bundle editor, cart, and checkout, then reset the store from the demo toolbar.
 
+If Advanced Bundles solves a real store need, [star this repository](https://github.com/we-wp/advanced-bundles-for-woocommerce) to save the project and help other WooCommerce users find it. Use GitHub's **Watch** menu for repository notifications.
+
 ## What it does
 
 Choose simple products or exact variations, set fixed quantities, and publish one bundle product. Customers see included products in a clear table with thumbnails, prices, quantities, and links to each product.
@@ -123,8 +125,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 - Use the [feature request template](https://github.com/we-wp/advanced-bundles-for-woocommerce/issues/new?template=feature_request.yml) to explain a real store workflow that Free does not cover.
 - Read [SUPPORT.md](SUPPORT.md) for usage, setup, and compatibility questions.
 - Report vulnerabilities privately. Follow [SECURITY.md](SECURITY.md); do not open a public security issue.
-
-If Advanced Bundles solves a real store need, [star this repository](https://github.com/we-wp/advanced-bundles-for-woocommerce) to save the project and help other WooCommerce users find it. Use GitHub's **Watch** menu for repository notifications.
 
 ## License
 
