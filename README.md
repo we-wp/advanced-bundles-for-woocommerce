@@ -12,11 +12,17 @@ Advanced Bundles is a free, open-source WooCommerce plugin for fixed product bun
 
 > Upload the named release ZIP to WordPress. GitHub's automatic **Source code** archives are not installable plugin packages.
 
-## Try it before installing
+## See the full WooCommerce bundle flow
 
-[![Advanced Bundles running in a synthetic WooCommerce demo store](https://raw.githubusercontent.com/we-wp/plugin-demo-platform/faa0fddbe4c991fe205619cceaae387c166a6aa5/screenshots/interactive-advanced-bundles-desktop-1440.jpg)](https://demo.we-wp.com/plugins/advanced-bundles/)
+Create the bundle in WooCommerce, show every included product clearly, then keep component lines through cart and checkout.
 
-The [interactive demo](https://demo.we-wp.com/plugins/advanced-bundles/) runs in an isolated synthetic WooCommerce store. Test the product page, bundle editor, cart, and checkout, then reset the store from the demo toolbar.
+| Bundle editor | Product page |
+| --- | --- |
+| [![WooCommerce Bundle product editor with fixed products and quantities](docs/screenshots/bundle-editor.png)](https://demo.we-wp.com/plugins/advanced-bundles/) | [![Advanced Bundles storefront product table with thumbnails, prices, and quantities](docs/screenshots/bundle-product.png)](https://demo.we-wp.com/plugins/advanced-bundles/) |
+| **Cart** | **Checkout** |
+| [![WooCommerce cart showing a bundle container and component product lines](docs/screenshots/bundle-cart.png)](https://demo.we-wp.com/plugins/advanced-bundles/) | [![WooCommerce checkout showing the fixed bundle and component summary](docs/screenshots/bundle-checkout.png)](https://demo.we-wp.com/plugins/advanced-bundles/) |
+
+Try the [interactive demo](https://demo.we-wp.com/plugins/advanced-bundles/) in a temporary browser store. No account or shared data. Test the product page, bundle editor, cart, and checkout, then reset the store from the demo toolbar.
 
 ## What it does
 
