@@ -12,6 +12,14 @@ Advanced Bundles is a free, open-source WooCommerce plugin for fixed product bun
 
 > Upload the named release ZIP to WordPress. GitHub's automatic **Source code** archives are not installable plugin packages.
 
+### Install with WP-CLI
+
+Requires WordPress 6.8+, WooCommerce 9.9+, and PHP 8.2+.
+
+```sh
+wp plugin install https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/download/v0.1.0/aim-advanced-bundles-0.1.0.zip --activate
+```
+
 ## See the full WooCommerce bundle flow
 
 Create the bundle in WooCommerce, show every included product clearly, then keep component lines through cart and checkout.
