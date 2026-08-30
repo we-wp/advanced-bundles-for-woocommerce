@@ -4,31 +4,31 @@
 [![Quality](https://github.com/we-wp/advanced-bundles-for-woocommerce/actions/workflows/quality.yml/badge.svg?branch=main)](https://github.com/we-wp/advanced-bundles-for-woocommerce/actions/workflows/quality.yml)
 [![License: GPL-2.0-or-later](https://img.shields.io/badge/license-GPL--2.0--or--later-315bea.svg)](LICENSE)
 
-Advanced Bundles is a free, open-source WooCommerce plugin for fixed product bundles. Choose simple products or exact variations, set quantities, and sell them as one bundle while WooCommerce keeps control of pricing, stock, tax, shipping, orders, and refunds.
+Advanced Bundles for WooCommerce is a free, open-source WooCommerce product bundles plugin for fixed kits, multipacks, gift sets, and product packs. Add simple products or exact variations, set quantities, and sell one bundle from one product page while WooCommerce keeps native control of pricing, stock, tax, shipping, orders, and refunds.
 
-[**Download WordPress installer — v0.1.0**](https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/download/v0.1.0/aim-advanced-bundles-0.1.0.zip) · [Try the live demo](https://demo.we-wp.com/plugins/advanced-bundles/) · [View the product page](https://we-wp.com/plugins/advanced-bundles-for-woocommerce)
+[**Download Free v0.1.0 ZIP**](https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/download/v0.1.0/aim-advanced-bundles-0.1.0.zip) · [Try the live WooCommerce demo](https://demo.we-wp.com/plugins/advanced-bundles/) · [View the plugin website and guides](https://we-wp.com/plugins/advanced-bundles-for-woocommerce) · [Read v0.1.0 release notes](https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/tag/v0.1.0)
 
 **Free download. No account, email address, license key, or telemetry.**
 
 > Upload the named release ZIP to WordPress. GitHub's automatic **Source code** archives are not installable plugin packages.
 
-[![Advanced Bundles storefront product table with product thumbnails, prices, and fixed quantities](docs/screenshots/bundle-product.png)](https://demo.we-wp.com/plugins/advanced-bundles/)
+## WooCommerce product bundle screenshots
 
-**What customers see:** one bundle product with a clear table of included items. In the cart and order, the zero-value bundle container groups native component lines; components keep their own price, tax, shipping, stock, and refund behavior.
+These two screenshots come from the public synthetic demo and contain no customer or production data.
 
-## See the full WooCommerce bundle flow
+[![Free WooCommerce product bundles plugin showing a fixed kit with product thumbnails, prices, and quantities](docs/screenshots/bundle-product.png)](https://demo.we-wp.com/plugins/advanced-bundles/)
 
-Create the bundle in WooCommerce, show every included product clearly, then keep component lines through cart and checkout.
+**Storefront:** Customers see every included product, unit price, and fixed quantity before adding the bundle to cart.
 
-| Bundle editor | Cart | Checkout |
-| --- | --- | --- |
-| [![WooCommerce Bundle product editor with fixed products and quantities](docs/screenshots/bundle-editor.png)](https://demo.we-wp.com/plugins/advanced-bundles/) | [![WooCommerce cart showing a bundle container and component product lines](docs/screenshots/bundle-cart.png)](https://demo.we-wp.com/plugins/advanced-bundles/) | [![WooCommerce checkout showing the fixed bundle and component summary](docs/screenshots/bundle-checkout.png)](https://demo.we-wp.com/plugins/advanced-bundles/) |
+[![WooCommerce cart showing a fixed product bundle with native component cart lines](docs/screenshots/bundle-cart.png)](https://demo.we-wp.com/plugins/advanced-bundles/)
 
-Try the [interactive demo](https://demo.we-wp.com/plugins/advanced-bundles/) in a temporary browser store. No account or shared data. Test the product page, bundle editor, cart, and checkout, then reset the store from the demo toolbar.
+**Cart:** The zero-value bundle container groups native component lines, while WooCommerce keeps component pricing, stock, tax, shipping, and refund behavior.
+
+Try the [interactive WooCommerce product bundle demo](https://demo.we-wp.com/plugins/advanced-bundles/) in a temporary browser store. No account or shared data. Test the product page, bundle editor, cart, and checkout, then reset the store from the demo toolbar.
 
 Used it successfully? Click **Star** at the top of this page to save the project and help other WooCommerce users find it. Use GitHub's **Watch** menu for repository notifications.
 
-## What it does
+## Create fixed WooCommerce product bundles
 
 Choose simple products or exact variations, set fixed quantities, and publish one bundle product. Customers see included products in a clear table with thumbnails, prices, quantities, and links to each product.
 
@@ -41,7 +41,7 @@ Use Free when you need:
 - Stock deducted from the real products and variations in the bundle.
 - Native WooCommerce tax, shipping, fulfilment, and refund workflows.
 
-## How fixed bundles work
+## How to create a WooCommerce product bundle
 
 1. Create or edit a WooCommerce product and select **Bundle** as the product type.
 2. Add simple products or exact variations and set a fixed quantity for each item.
@@ -72,7 +72,7 @@ The Free plugin has no account requirement, email gate, telemetry, or external r
 | Cart and checkout | Classic templates and Cart/Checkout Blocks |
 | Order storage | HPOS compatible |
 
-## Install in WordPress
+## Install the WooCommerce product bundles plugin
 
 1. [Download the Free 0.1.0 installer ZIP](https://github.com/we-wp/advanced-bundles-for-woocommerce/releases/download/v0.1.0/aim-advanced-bundles-0.1.0.zip).
 2. In WordPress, go to **Plugins > Add New Plugin > Upload Plugin**.
